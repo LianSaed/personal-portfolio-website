@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    max-height: fit-content;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    border: 3px solid #008AAA;
+    padding: 2% 10%;
+    margin: 0%;
+}
+
+@media screen and (max-width: 700px) {
+
+    /*when the viewport is 420px or smaller */
+    body {
+        padding: 2% 2%;
+    }
+
+}

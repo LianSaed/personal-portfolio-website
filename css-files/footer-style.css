@@ -1,0 +1,23 @@
+.button {
+    background-color: #008AAA;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 12px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px #3BBADB;
+}
+
+.button2:active,
+.button2:visited,
+.button2:link,
+.button2:hover {
+    background-color: #ffffff;
+    color: #008AAA;
+    border: 1px solid #008AAA;
+}

@@ -1,0 +1,32 @@
+header {
+    padding-bottom: 5%;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 5% 5%;
+}
+
+.nav-container a:link,
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+.nav-container a:hover,
+a:active {
+    color: #D1884F;
+}
+
+@media screen and (max-width: 420px) {
+
+    /*when the viewport is 420px or smaller */
+    .nav-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

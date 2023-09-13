@@ -1,0 +1,76 @@
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: fit-content(auto-fit);
+}
+
+.right-sub-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    min-width: 30%;
+    height: 100%;
+    min-height: 30%;
+}
+
+.left-sub-container {
+    min-height: fit-content;
+}
+
+.right-sub-container section {
+    width: 70%;
+    height: 450px;
+    border-bottom-left-radius: 60%;
+    box-shadow: -20px 8px 1px #3BBADB;
+    background-image: url("../Layan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+
+h1 {
+    color: #008AAA;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3BBADB;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h3 {
+    color: #008AAA;
+    font-size: 20px;
+}
+
+span {
+    color: #D1884F;
+}
+
+.see-more {
+    border: none;
+    color: #0000FF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+
+    /*when the viewport is 700px or smaller */
+    .article-container {
+        display: inline-grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5px;
+    }
+
+    .right-sub-container {
+        justify-content: center;
+        height: 450px;
+        padding-bottom: 20px;
+    }
+
+}
